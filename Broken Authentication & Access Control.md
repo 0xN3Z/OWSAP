@@ -11,6 +11,30 @@
 -  Attribute-based access control (ABAC)
 -  Break-glass access control
 -  Rule-based access control
+  ## types of broken access control
+  1. Privilege escalation
+  - Vertical Privilege Escalation : If a user can gain access to functionality that they are not permitted to access    ex : admin / robots.txt / The URL may be exposed in role-based JavaScript
+    
+    **Parameter-based access control methods**
+    - A hidden field
+    - A cookie
+    - A preset query string parameter : The privilege is stored in a parameter in the URL
+
+
+      
+
+
+  - Horizontal privilege escalation  : نفس المستوى لكن يستغل بيانات/وظائف مستخدم تاني (user A → user B)
+    **Horizontal privilege escalation can escalate into vertical privilege escalation.**
+
+    
+    **note  IDOR : هو Technique إنك تغيّري الـ ID أو أي parameter في الـ URL فتوصلي لحاجة مش مصرحالك بيها (Privilege).**
+
+`https://insecure-website.com/myaccount?id=101   ← حسابي
+https://insecure-website.com/myaccount?id=102   ← حساب مستخدم تاني
+`
+    2. 
+
 
 
 
