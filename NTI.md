@@ -13,4 +13,4 @@ Availability : It is the availability of information to authorized users when th
 
 frameworks : A structured set of standards, guidelines, and best practices that helps organizations manage and reduce cybersecurity risks, ensure compliance, and improve communication between security teams and stakeholders.
 
-
+(nist cybersecurity framework.png)
